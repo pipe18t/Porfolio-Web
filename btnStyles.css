@@ -1,0 +1,21 @@
+
+
+/* Boton CV ============================ */
+.btnCV{
+    animation: none;
+}
+
+.btnCV:hover {
+    animation: efectoBotones 0.5s ease-out;
+}
+
+/* Boton contratar ====================== */
+.btnContratar{
+    border: 2px solid #FFC107;
+    animation: pulsante 10s infinite;
+}
+
+.btnContratar:hover {
+    animation: efectoBotones 0.5s ease-out;
+}
+

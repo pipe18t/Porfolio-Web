@@ -1,0 +1,42 @@
+
+header .navbar-brand {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--color3);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 85%;
+}
+
+/*Estos son los colores de la navbar*/
+.navbar {
+    background-color: var(--fondo1);
+}
+
+/*Estos son los colores de la navbar*/
+.navbarDatos {
+    background-color: var(--fondo);
+}
+
+/*Estos son los textos de la navbar*/
+.nav-link{
+    font-weight:lighter;
+    color: var(--color4);
+}
+
+/*Estos son los iconos de la navbar*/
+/* 
+.navbar-nav {
+    margin: auto;
+}  */
+
+/*Estos son los links de la navbar*/
+.nav-link {
+    animation: none;
+}
+  
+.nav-link:hover {
+    animation: efectoLinksNav 0.5s ease-in-out;
+    color: var(--color1);
+}

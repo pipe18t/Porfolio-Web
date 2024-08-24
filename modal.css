@@ -1,0 +1,53 @@
+
+/* Estilo personalizado para la modal */
+.custom-modal {
+    transform: scale(1);
+    transition: transform 0.3s ease-in;
+    background-color: #000;
+  
+  }
+  
+  .custom-modal::before {
+    content: "";
+    transform: scale(0);
+    text-align: justify;
+  }
+  
+.modal-body .container {
+ 
+margin-top:-20px;
+margin-bottom: 10px;
+}
+
+.skills .container .textos {
+text-align: center;
+}
+
+  .modal-body-servicios li {
+
+    list-style: none;
+  }
+  
+  .modal-body-servicios li::before {
+    content: "✓";
+    margin-right: 5px;
+  }
+  
+  .modal-body-servicios li::before {
+    content: "✓";
+    margin-right: 5px;
+  }
+  
+  .custom-modal .modal-header,
+  .custom-modal .modal-footer {
+    border-color: #FFC310;
+  }
+ 
+
+/* Boton cerrar modal ==================== */
+.custom-modal .modal-footer button {
+  background-color: var(--color2);
+  border: 2px solid var(--color1);
+  color: var(--negro);
+}
+
